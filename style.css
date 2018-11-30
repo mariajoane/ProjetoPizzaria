@@ -1,0 +1,264 @@
+body {
+		background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+	}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+h1,h2,h3, .btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+h2 {
+  color: #333;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  color:black;
+}
+#contact h2 {
+  color: #ffffff;
+}
+
+h3 {
+  color: #444;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+#menu h3 {
+   color: #555;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:visited,
+a:focus {
+  outline: none;
+  text-decoration: none !important;
+}
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+/*css */
+.hvr-bounce-to-bottom:before,
+.hvr-bounce-to-top:before {
+  background-color: #ffffff;
+}
+
+
+/* todos os styles de seção */
+#menu,
+#contact {
+  color: #656565;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#contact {
+  text-align: center;
+}
+/*titulo*/
+.section-title {
+  padding-bottom: 70px;
+}
+#menu .section-title {
+  text-align: center;
+}
+#contact .section-title {
+  color: #f0f0f0;
+}
+/* inicio */
+#home {
+  color:white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+        align-items: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#home .gradient-overlay {
+  background: #c21500;  
+  background: #2b0050;  
+  background: -webkit-linear-gradient(to left, #6700f3 , #00f3a0); 
+  background: linear-gradient(to left, #6700f3 , #00f3a0);
+  opacity: 0.5;      
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+/* navegação */
+.navbar-default {
+    background: #ffffff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+    margin: 0 !important;
+}
+
+.navbar-default .navbar-brand {
+  color: #505050;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #757575;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 50px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-default .navbar-nav > li a:hover {
+    color: #c21500 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #606060;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #c21500;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+     border: none;
+     padding-top: 10px;
+  }
+
+.navbar-default .navbar-toggle .icon-bar {
+    border-color: transparent;
+  }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { 
+  background-color: transparent;
+}
+
+
+
+
+/* Menu section */
+#menu .media {
+  padding-bottom: 20px;
+}
+
+#menu .media-object img {
+  width: 200px;
+  padding-right: 12px;
+  position: relative;
+}
+
+#menu .media-object span.menu-price{
+  position: absolute;
+  background-color: #ffffff;
+  color: #222;
+  font-size: 25px;
+  font-weight: all;
+  padding: 1px 10px;
+  top: 70%;
+  left: 1%;
+}
+/*Contato*/
+#contact {
+  background: url('http://www.curtamais.com.br/uploads/conteudos/dc48798e1954677a53331a8fd3ac5b6f.png') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#contact .overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #666;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:hover {
+  border-color: #ddd;
+}
+
+#contact input {height: 45px;}
+
+#contact input[type='submit'] {
+  background: #ffffff;
+  border-radius: 4px;
+  color: #c21500;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  transition: all 0.4s ease-in-out;
+}
+#contact input[type='submit']:hover {
+  background-color: #c21500;
+  border-color: transparent;
+  color: #ffffff;
+}
